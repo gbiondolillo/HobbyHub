@@ -1,0 +1,39 @@
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-item {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.post-item h3 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.post-item p {
+    margin: 0;
+    padding: 0.5em 0;
+    color: #666;
+}
+
+.post-item img {
+    max-width: 100%;
+    max-height: 500px; 
+    height: auto;
+    object-fit: cover; 
+}
+
+.post-meta {
+    font-size: 0.8em;
+    text-align: left;
+}

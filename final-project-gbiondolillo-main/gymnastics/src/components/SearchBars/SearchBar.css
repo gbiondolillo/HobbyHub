@@ -1,0 +1,13 @@
+.search-bar {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.search-bar input[type='text'] {
+    flex: 1;
+    margin-right: 8px;
+}

@@ -1,0 +1,36 @@
+.post-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.post-actions button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.post-actions button:hover {
+    opacity: 0.8;
+}
+
+.post-actions button:active {
+    opacity: 0.6;
+}
+
+.post-actions .upvote {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.post-actions .edit {
+    background-color: #FF9800;
+    color: white;
+}
+
+.post-actions .delete {
+    background-color: #F44336;
+    color: white;
+}
